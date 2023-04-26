@@ -1,0 +1,16 @@
+Checks: '
+        -*,
+        google-*,
+        cppcoreguidelines-*,
+        modernize-*,
+        performance-*,
+        readability-*,
+        clang-analyzer-*
+        '
+
+HeaderFilterRegex: '.*'
+FormatStyle: 'file'
+
+# If you want warnings -> errors, just uncomment:
+# WarningsAsErrors: '*'
+
