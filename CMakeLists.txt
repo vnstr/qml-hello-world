@@ -28,7 +28,7 @@ add_executable(
   SourceFiles/main.cpp
 )
 
-if (APPLE)
+if (APPLE OR WIN32)
 
   # Fix error:
   # module "QtQuick" plugin "qtquick2plugin" not found
